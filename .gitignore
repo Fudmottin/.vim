@@ -1,0 +1,12 @@
+*.swp
+*.swo
+*.swn
+*~
+.vimviews/
+views/
+*.vimsession
+Session.vim
+.netrwhist
+*.tmp
+*.log
+

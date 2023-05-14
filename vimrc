@@ -1,0 +1,20 @@
+" General settings
+set tabstop=4       " A tab is four spaces
+set shiftwidth=4    " An indent is four spaces
+set expandtab       " Use spaces, not tabs
+set autoindent      " Copy indent from current line when starting a new line
+set encoding=utf-8  " Required by YouCompleteMe
+
+" Syntax Highlighting
+syntax on           " Enable syntax highlighting
+
+" Filetype settings
+filetype plugin indent on  " Enable filetype detection and loading
+
+" Specific settings for C and C++
+autocmd FileType c,cpp setlocal cindent cinoptions=g0,i0,+0,(0,u0,W0 expandtab shiftwidth=4 softtabstop=4
+
+" Statusline
+set laststatus=2    " Always show the status line
+set statusline=%<%f\ %h%m%r\ Line:\ %l\ Column:\ %c%V%P
+
