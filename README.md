@@ -8,7 +8,7 @@ To clone the `.vim` repository and initialize the submodules, follow these steps
 cd  
 gh repo clone Fudmottin/.vim -- --recurse-submodules  
 cd ~/.vim/pack/ycm/start/YouCompleteMe  
-./install.py  
+./install.py --clangd-completer 
 
 If you don't have the GitHub command line client, it is worth having.  
 
