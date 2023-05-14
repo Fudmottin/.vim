@@ -1,0 +1,3 @@
+[submodule "pack/ycm/start/YouCompleteMe"]
+	path = pack/ycm/start/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git
