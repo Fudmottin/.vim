@@ -18,3 +18,6 @@ autocmd FileType c,cpp setlocal cindent cinoptions=g0,i0,+0,(0,u0,W0 expandtab s
 set laststatus=2    " Always show the status line
 set statusline=%<%f\ %h%m%r\ Line:\ %l\ Column:\ %c%V%P
 
+" Settings for YouCompleteMe
+let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+
