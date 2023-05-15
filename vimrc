@@ -12,7 +12,7 @@ syntax on           " Enable syntax highlighting
 filetype plugin indent on  " Enable filetype detection and loading
 
 " Specific settings for C and C++
-autocmd FileType c,cpp setlocal cindent cinoptions=g0,i0,+0,(0,u0,W0 expandtab shiftwidth=4 softtabstop=4
+" autocmd FileType c,cpp setlocal cindent cinoptions=g0,i0,+0,(0,u0,W0 expandtab shiftwidth=4 softtabstop=4
 
 " Statusline
 set laststatus=2    " Always show the status line

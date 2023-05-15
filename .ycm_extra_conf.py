@@ -16,6 +16,12 @@ def FlagsForFile(filename, **kwargs):
         '/opt/homebrew/include'
     ]
 
+    # Create -I flags
+    include_flags = ['-I' + x for x in include_dirs]
+
+    # Extend the flags list with include flags
+    flags.extend(include_flags)
+
     include_paths = [os.path.dirname(os.path.abspath(filename))]
     include_paths.extend(include_dirs)
 
