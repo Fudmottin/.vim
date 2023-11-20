@@ -5,6 +5,7 @@ set expandtab       " Use spaces, not tabs
 set autoindent      " Copy indent from current line when starting a new line
 set encoding=utf-8  " Required by YouCompleteMe
 set fileencoding=utf-8
+set backspace=indent,eol,start
 
 " Syntax Highlighting
 syntax on           " Enable syntax highlighting
