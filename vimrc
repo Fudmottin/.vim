@@ -20,7 +20,7 @@ augroup END
 
 " Statusline
 set laststatus=2    " Always show the status line
-set statusline=%<%f\ %h%m%r\ Line:\ %l\ Column:\ %c%V%P
+set statusline=%<%f\ %h%m%r\ Line:\ %l\ Column:\ %c%V\ %P
 
 " Settings for YouCompleteMe
 try
