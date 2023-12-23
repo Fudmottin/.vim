@@ -20,18 +20,22 @@ augroup filetype_c_cpp_settings
 augroup END
 
 " Statusline
-set laststatus=2    " Always show the status line
-set statusline=%<%f\ %h%m%r\ Line:\ %l\ Column:\ %c%V\ %P
+set laststatus=2    " Always show the status line"
+set statusline=%<%f\ %h%m%r\ Line:\ %l\ Column:\ %c%V\ %P"
 
-" Settings for YouCompleteMe
-try
+" Settings for YouCompleteMe"
+try 
   let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
-catch
+catch 
   echo "YouCompleteMe is not installed or has some issues"
-endtry
+endtry 
+
+let g:ycm_clangd_binary_path = '/usr/local/bin/clangd'
+let g:ycm_language_server=['cpp', 'c']
 
 " Save and restore cursor position for each buffer
 augroup res_cursor_position
   autocmd!
   autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 augroup END
+
