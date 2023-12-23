@@ -15,5 +15,5 @@ If you don't have the GitHub command line client, it is worth having.
 This markdown provides a clear description of the steps to clone the repository,
 initialize submodules, and install the YouCompleteMe plugin.  
 
-You will need cmake and Python3.
+You will need llvm (for clangd), cmake, and Python3.
 
