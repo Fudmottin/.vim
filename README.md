@@ -1,19 +1,18 @@
-# .vim
+# vim
 
-Back up your .vim directory before fetching my setup. You don't want to ruin
-your customizations.
+This repo is just a backup of my ~/.vim/vimrc and ~/.clang-format files. I may
+enhance it in the future.
 
-To clone the `.vim` repository and initialize the submodules, follow these steps:  
+My setup is MacOS with Homebrew installed. I am using the brew vim and llvm
+packages as well as clang-format. At the moment, I'm not doing anything
+fancy. In fact, I'm trying to keep things as simple as possible.
 
-cd  
-gh repo clone Fudmottin/.vim -- --recurse-submodules  
-cd ~/.vim/pack/ycm/start/YouCompleteMe  
-./install.py --all
+```bash
+brew install vim clang-tidy llvm
+```
 
-If you don't have the GitHub command line client, it is worth having.  
+Copy the vimrc file to ~/.vim/vimrc
+Copy the clang-format file to ~/.clang-format
 
-This markdown provides a clear description of the steps to clone the repository,
-initialize submodules, and install the YouCompleteMe plugin.  
-
-You will need llvm (for clangd), cmake, and Python3.
+This yeilds a basic vim setup with the code style I currently use.
 
