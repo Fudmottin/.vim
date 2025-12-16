@@ -8,7 +8,7 @@ packages as well as clang-format. At the moment, I'm not doing anything
 fancy. In fact, I'm trying to keep things as simple as possible.
 
 ```bash
-brew install vim clang-tidy llvm
+brew install vim clang-format llvm
 ```
 
 Copy the vimrc file to ~/.vim/vimrc
