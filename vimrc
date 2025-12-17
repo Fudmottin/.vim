@@ -1,8 +1,8 @@
 " General settings
 let mapleader = " "
 
-set tabstop=4       " A tab is four spaces
-set shiftwidth=4    " An indent is four spaces
+set tabstop=3       " A tab is four spaces
+set shiftwidth=3    " An indent is four spaces
 set expandtab       " Use spaces, not tabs
 set autoindent      " Copy indent from current line when starting a new line
 set encoding=utf-8  " Required by some plugins (even if not using YCM)
@@ -20,7 +20,7 @@ augroup filetype_c_cpp_settings
   autocmd!
   autocmd FileType c,cpp setlocal cindent 
   autocmd FileType c,cpp setlocal cinoptions=g0,i0,+0,(0,u=W
-  autocmd FileType c,cpp setlocal expandtab shiftwidth=4 softtabstop=4
+  autocmd FileType c,cpp setlocal expandtab shiftwidth=3 softtabstop=3
 augroup END
 
 " Use clang-format as the external formatter for gq command
